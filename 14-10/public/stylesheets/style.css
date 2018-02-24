@@ -1,0 +1,31 @@
+html, body, h1, h2, h3, h4, p, a, img, div {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.box {
+  display: flex;
+}
+
+.one {
+  flex: 1 1 auto;
+  background-color: chocolate;
+}
+
+.two {
+  flex: 1 1 auto;
+  background-color: crimson;
+}
+
+.three {
+  flex: 1 1 auto;
+  background-color: darksalmon;
+}
