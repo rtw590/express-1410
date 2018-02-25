@@ -7,31 +7,22 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+.card {
+	border: 2px solid black;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
-.box2 {
-  display: flex;
+.row	{
+	justify-content: space-around;
 }
 
-.one {
-  flex: 1 1 auto;
-  background-color: chocolate;
+.card img	{
+	width: 100%;
 }
 
-.two {
-  flex: 1 1 auto;
-  background-color: crimson;
+.cardFooter 	{
+	width: 100%;
+	border: 1px solid red;
 }
 
-.three {
-  flex: 1 1 auto;
-  background-color: darksalmon;
-}
-
-.boxExample {
-	background-color: blue;
-	padding: 10px;
-	margin: 10px;
-}

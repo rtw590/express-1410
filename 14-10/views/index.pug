@@ -3,20 +3,29 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
-  .box2
-    .one One
-    .two Two
-    .three Three
-    
+      
   .row
-    .col-xs.boxExample
-      h1 Cat
-    .col-xs.boxExample
-      h1 The devil went down to Georgia
-    .col-xs.boxExample
-      h1 Cat
-    .col-xs.boxExample
-      h1 He was looking for a soul to steal. He was in a bind because he didn't have much time'
-
-
-
+    .col-xs.card
+      img(src='pic.jpg')
+      h4 Here is a lot of text it is a lot longer than the other box
+      p.cardFooter Footer
+    .col-xs.card
+      img(src='pic.jpg')
+      h4 Body
+      p.cardFooter Footer
+      
+  br
+      
+  .row
+    .col-xs.card
+      img(src='pic.jpg')
+      h4 Body
+      p Footer
+    .col-xs.card
+      img(src='pic.jpg')
+      h4 Body
+      p Footer
+    .col-xs.card
+      img(src='pic.jpg')
+      h4 Body
+      p Footer
