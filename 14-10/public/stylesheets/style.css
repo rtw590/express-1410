@@ -11,7 +11,7 @@ a {
   color: #00B7FF;
 }
 
-.box {
+.box2 {
   display: flex;
 }
 
@@ -28,4 +28,10 @@ a {
 .three {
   flex: 1 1 auto;
   background-color: darksalmon;
+}
+
+.boxExample {
+	background-color: blue;
+	padding: 10px;
+	margin: 10px;
 }
