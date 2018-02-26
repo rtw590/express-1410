@@ -7,13 +7,16 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-.card {
+/* .card {
 	border: 2px solid black;
+	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	min-width: 200px;
 }
 
 .row	{
+	display: flex;
 	justify-content: space-around;
 }
 
@@ -24,5 +27,26 @@ body {
 .cardFooter 	{
 	width: 100%;
 	border: 1px solid red;
+} */
+
+.row	{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 
+.card {
+	background-color: red;
+	margin-left: 5px;
+	margin-right: 5px;
+	min-width: 200px; 
+	max-width: 400px;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+img {
+	min-width: 0;
+	width: 100%;
+}
